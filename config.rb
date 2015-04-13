@@ -1,0 +1,1 @@
+['pet', 'dog', 'cat', 'bird'].each{|library| require "./#{library}"}
