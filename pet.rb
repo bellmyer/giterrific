@@ -16,4 +16,12 @@ class Pet
 	def can_chirp?
 		false
 	end
+
+	def legs
+		raise "The #legs method must be implemented in child classes of Pet"
+	end
+
+	def status
+		"#{name} has #{legs} legs...for now"
+	end
 end
