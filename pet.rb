@@ -20,6 +20,10 @@ class Pet
 	def is_silent?
 		false
 	end
+  
+  def can_fling_excrement?
+    false
+  end
 
 	def legs
 		raise "The #legs method must be implemented in child classes of Pet"
