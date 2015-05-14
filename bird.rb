@@ -6,6 +6,6 @@ class Bird < Pet
 	end
 
 	def legs
-		2
+		4
 	end
 end
